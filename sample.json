@@ -1,0 +1,14 @@
+[
+{
+"Domain": "blog.test.org",
+"Address": "127.0.0.1:8000"
+},
+{
+"Domain": "note.test.org",
+"Address": "127.0.0.1:9000"
+},
+{
+"Domain": "wiki.test.org",
+"Address": "127.0.0.1:8080"
+}
+]
