@@ -6,8 +6,8 @@
 
 ** 使用
 
-请参考 =sample.json= 文件来写你自己的转换规则, 然后把文件复制到 =/etc/go-domain-forward/config.json= , 之后启动程序即可.
-当然也可以使用 =-c= 参数指定配置文件.
+请参考 =src/sample.json= 文件来写你自己的转换规则, 然后把文件复制到 =/etc/go-domain-forward/config.json= , 当然也可以使用 =-c= 参数指定配置文件.
+之后可以直接启动程序, 也可以通过 =systemctl= 来启动, =service= 文件见 =data= 目录, 注意文件里的路径, 如果与安装的不符, 请自行修改.
 
 
 
