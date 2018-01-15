@@ -62,7 +62,7 @@ func parseConfig(filename string) (map[string]string, error) {
 		set[info.Domain] = info.Address
 	}
 
-	debugLog("Config file: %#v\n", set)
+	debugfLog("Config file: %#v\n", set)
 
 	_set = set
 	return set, nil

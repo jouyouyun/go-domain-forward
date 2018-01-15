@@ -16,6 +16,13 @@ func debugLog(format string, a ...interface{}) {
 	if *_debug == false {
 		return
 	}
+	fmt.Println(format, a)
+}
+
+func debugfLog(format string, a ...interface{}) {
+	if *_debug == false {
+		return
+	}
 	fmt.Printf(format, a)
 }
 
