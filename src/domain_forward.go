@@ -28,8 +28,13 @@ func handleClientRequest(client net.Conn) {
 		return
 	}
 
+	orig := host
 	host = convertDomain(host)
 	debugLog("Host after convert:", host)
+	if orig == host {
+		fmt.Println("Invalid host:", orig)
+		return
+	}
 
 	// forward
 	server, err := net.Dial("tcp", host)

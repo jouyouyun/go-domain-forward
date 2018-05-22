@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	_port   = flag.String("p", "80", "port")
+	_port   = flag.String("p", "8000", "port")
 	_config = flag.String("c", "/etc/go-domain-forward/config.json", "config")
 	_debug  = flag.Bool("d", false, "debug")
 )
